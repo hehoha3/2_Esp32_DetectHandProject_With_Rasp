@@ -11,9 +11,9 @@ gc.collect()
 
 
 # Connection Information
-WIFI_SSID = "pepu"
-WIFI_PASSWORD = "88888888"
-MQTT_HOST     = '192.168.1.5'
+WIFI_SSID = "Aloalo"
+WIFI_PASSWORD = "hel0o812"
+MQTT_HOST     = 'left01.local'
 
 CLIENT_ID     = ubinascii.hexlify(machine.unique_id())
 TOPIC_SUB     = b'home/ledControl'

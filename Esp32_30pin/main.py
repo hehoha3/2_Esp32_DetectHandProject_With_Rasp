@@ -3,7 +3,7 @@ import machine
 from umqttsimple import MQTTClient
 
 # pins
-relay = machine.Pin(15, machine.Pin.OUT)
+relay = machine.Pin(13, machine.Pin.OUT)
 
 # Subscribe callback Func
 def sub_cb(topic, msg):
